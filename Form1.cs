@@ -18,6 +18,12 @@ namespace LibraryAppPrototype
             return false;
         }
 
+        // Testing for the push.
+        public int JustTestingToday(int A)
+        {
+            //This is just a test in the main form.
+            return A;
+        }
         public Form1()
         {
             InitializeComponent();
