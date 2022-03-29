@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace LibraryAppPrototype
 {
@@ -15,19 +16,18 @@ namespace LibraryAppPrototype
         public bool listBoxActive(string box)
         {
             return false;
-
         }
-
-        private bool 
 
         public Form1()
         {
             InitializeComponent();
         }
 
+        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C: \Users\1913198\OneDrive - University of Wolverhampton\Documents\BookRentalID.mdf";Integrated Security=True;Connect Timeout=30");
+
+
         private void textBox2_Click(object sender, EventArgs e)
         {
-
 
         }
 
@@ -47,6 +47,26 @@ namespace LibraryAppPrototype
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
