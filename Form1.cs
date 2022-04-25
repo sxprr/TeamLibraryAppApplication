@@ -75,11 +75,5 @@ namespace LibraryAppPrototype
         {
 
         }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Form1 f1 = new Form1();
-            f1.ShowDialog(); // Shows form1
-        }
     }
 }
