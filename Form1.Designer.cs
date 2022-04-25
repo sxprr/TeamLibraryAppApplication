@@ -32,7 +32,6 @@ namespace LibraryAppPrototype
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,24 +42,12 @@ namespace LibraryAppPrototype
             this.label11 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(229, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(181, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Library Booking Form (PROTOTYPE)";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(19, 224);
+            this.button2.Location = new System.Drawing.Point(27, 124);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -70,16 +57,16 @@ namespace LibraryAppPrototype
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(100, 100);
+            this.textBox2.Location = new System.Drawing.Point(86, 22);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(178, 20);
             this.textBox2.TabIndex = 3;
             this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(37, 103);
+            this.label3.Location = new System.Drawing.Point(20, 25);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 13);
             this.label3.TabIndex = 4;
@@ -88,7 +75,7 @@ namespace LibraryAppPrototype
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(181, 224);
+            this.button3.Location = new System.Drawing.Point(189, 124);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 5;
@@ -98,7 +85,7 @@ namespace LibraryAppPrototype
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(100, 224);
+            this.button4.Location = new System.Drawing.Point(108, 124);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 6;
@@ -108,7 +95,7 @@ namespace LibraryAppPrototype
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 139);
+            this.label6.Location = new System.Drawing.Point(20, 57);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(83, 13);
             this.label6.TabIndex = 9;
@@ -116,15 +103,15 @@ namespace LibraryAppPrototype
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(100, 132);
+            this.textBox5.Location = new System.Drawing.Point(108, 54);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.Size = new System.Drawing.Size(156, 20);
             this.textBox5.TabIndex = 12;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(12, 396);
+            this.label11.Location = new System.Drawing.Point(8, 207);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(137, 13);
             this.label11.TabIndex = 21;
@@ -133,43 +120,35 @@ namespace LibraryAppPrototype
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(147, 170);
+            this.textBox3.Location = new System.Drawing.Point(151, 85);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(113, 20);
             this.textBox3.TabIndex = 22;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 177);
+            this.label4.Location = new System.Drawing.Point(20, 88);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 13);
             this.label4.TabIndex = 23;
             this.label4.Text = "Customer Phone Number";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label5
+            // button5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(476, 67);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 13);
-            this.label5.TabIndex = 24;
-            this.label5.Text = "User list";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(369, 94);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 312);
-            this.dataGridView1.TabIndex = 25;
+            this.button5.Location = new System.Drawing.Point(86, 162);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(108, 23);
+            this.button5.TabIndex = 26;
+            this.button5.Text = "Return To Login";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(643, 418);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(289, 229);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label11);
@@ -180,11 +159,9 @@ namespace LibraryAppPrototype
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -196,7 +173,6 @@ namespace LibraryAppPrototype
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
@@ -207,8 +183,7 @@ namespace LibraryAppPrototype
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button5;
     }
 }
 

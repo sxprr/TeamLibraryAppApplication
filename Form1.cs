@@ -29,8 +29,7 @@ namespace LibraryAppPrototype
             InitializeComponent();
         }
 
-        SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C: \Users\1913198\OneDrive - University of Wolverhampton\Documents\BookRentalID.mdf";Integrated Security=True;Connect Timeout=30");
-
+        SqlConnection Con = new SqlConnection();
 
         private void textBox2_Click(object sender, EventArgs e)
         {
@@ -75,6 +74,12 @@ namespace LibraryAppPrototype
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.ShowDialog(); // Shows form1
         }
     }
 }
