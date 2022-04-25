@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace LibraryAppPrototype
 {
@@ -56,6 +57,9 @@ namespace LibraryAppPrototype
         {
             Form1 f1 = new Form1();
             f1.ShowDialog(); // Shows form1
+
+            Debug.Write("SHOWS FORM 1 WHEN IT IS CLICKED.");
+
 
         }
     }

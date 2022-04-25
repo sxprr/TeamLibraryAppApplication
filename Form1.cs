@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Diagnostics;
 
 namespace LibraryAppPrototype
 {
@@ -73,6 +74,14 @@ namespace LibraryAppPrototype
 
         private void label4_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog(); // Shows form1
+            Debug.Write("SHOWS FORM 1 WHEN CLICKED.");
 
         }
     }
