@@ -62,7 +62,7 @@ namespace LibraryAppPrototype
             // 
             this.textBox2.Location = new System.Drawing.Point(86, 22);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 20);
+            this.textBox2.Size = new System.Drawing.Size(178, 26);
             this.textBox2.TabIndex = 3;
             this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
             // 
@@ -71,7 +71,7 @@ namespace LibraryAppPrototype
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(20, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(90, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "First Name:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -100,7 +100,7 @@ namespace LibraryAppPrototype
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(20, 57);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 13);
+            this.label6.Size = new System.Drawing.Size(124, 20);
             this.label6.TabIndex = 9;
             this.label6.Text = "User ID Number";
             // 
@@ -108,7 +108,7 @@ namespace LibraryAppPrototype
             // 
             this.textBox5.Location = new System.Drawing.Point(108, 54);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(156, 20);
+            this.textBox5.Size = new System.Drawing.Size(156, 26);
             this.textBox5.TabIndex = 12;
             // 
             // label11
@@ -116,7 +116,7 @@ namespace LibraryAppPrototype
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(8, 207);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(137, 13);
+            this.label11.Size = new System.Drawing.Size(204, 20);
             this.label11.TabIndex = 21;
             this.label11.Text = "Currently a work in progress";
             this.label11.Click += new System.EventHandler(this.label11_Click);
@@ -125,7 +125,7 @@ namespace LibraryAppPrototype
             // 
             this.textBox3.Location = new System.Drawing.Point(151, 85);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(113, 20);
+            this.textBox3.Size = new System.Drawing.Size(113, 26);
             this.textBox3.TabIndex = 22;
             // 
             // label4
@@ -133,7 +133,7 @@ namespace LibraryAppPrototype
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(20, 88);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 13);
+            this.label4.Size = new System.Drawing.Size(188, 20);
             this.label4.TabIndex = 23;
             this.label4.Text = "Customer Phone Number";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -159,7 +159,7 @@ namespace LibraryAppPrototype
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(552, 229);
+            this.ClientSize = new System.Drawing.Size(579, 312);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label4);
