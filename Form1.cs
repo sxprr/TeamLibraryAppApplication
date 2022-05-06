@@ -82,6 +82,7 @@ namespace LibraryAppPrototype
             Form2 f2 = new Form2();
             f2.ShowDialog(); // Shows form1
             Debug.Write("SHOWS FORM 1 WHEN CLICKED.");
+            this.Close();
 
         }
     }
